@@ -81,3 +81,15 @@ var pluralizer = function(number,animal){
     }
 };
 
+            // While loop to print even numbers.
+var whileLoop = function(start,stop){
+
+    while(start < stop) {
+        if(start % 2 === 0){
+            console.log(start);
+        }
+    
+        start++;
+    };
+};
+        // Use whileLoop(0,21); to complete challenge.
