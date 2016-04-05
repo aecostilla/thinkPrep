@@ -69,3 +69,15 @@ var wTranslate = function(lan){
 
         // The Pluralizer
 
+var pluralizer = function(number,animal){
+    if (number > 1 && animal !== "goose") {
+        console.log(number + " " + animal + "s");
+    }
+    else if (animal === "goose" && number > 1) {
+        console.log(number + " geese");
+    }
+    else if (number >= 0){
+        console.log(animal);
+    }
+};
+
