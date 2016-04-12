@@ -85,3 +85,15 @@ console.log(output);
 
 
 
+*/
+
+var output = "";
+for(var b = 0; b <=10; b++){
+        output += "\n";
+    for(var a = 1; a <=10; a++){
+        output += a*b;
+    };
+}
+
+console.log(output);
+
