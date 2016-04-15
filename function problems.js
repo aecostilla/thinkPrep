@@ -14,6 +14,35 @@ var sumArray = function(arr){
     }
         return arrTwo;
 };
+
+/* sumArray(values); */
   
 // Example Two.
 
+var checkPalindrome = function(String){
+    var check = String.split("").reverse().join("");
+    
+    if(check === String){
+        return true;
+    }
+    
+    else {
+        return false;
+    }
+};
+
+/* checkPalindrome("racecar"); */
+
+// Example Three.
+
+var sentence = "I am happy you are reading this sentence";
+var stringTool = function(words){
+    
+    var count = words.split(' ').length;
+    var newArr = words.split(' ').join('').length;
+    var average = newArr/count;
+    
+    return "This string has " + count + " words. The average length of each word is " + average + " characters.";
+}
+
+/* stringTool(sentence); */
