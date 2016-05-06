@@ -27,5 +27,3 @@ var resultTwo = arrOne.filter(showEven);
 var arrAverage = function(sum, numbers){
     return (numbers/sum);
 };
-
-var resultThree = arrOne.reduce(arrAverage);
