@@ -72,3 +72,6 @@ function holdData(){
 };
 
 getData = holdData;
+
+getData()();
+
